@@ -5417,7 +5417,9 @@
     "extensions": ["wg"]
   },
   "application/vnd.pmtiles": {
-    "source": "iana"
+    "source": "iana",
+    "compressible": false,
+    "extensions": ["pmtiles"]
   },
   "application/vnd.poc.group-advertisement+xml": {
     "source": "iana",
